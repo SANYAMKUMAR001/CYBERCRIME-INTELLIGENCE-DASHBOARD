@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SOC dashboard for the GCF Cyber Crime Intelligence Platform." />
+  <title>Dashboard | GCF Cyber Crime Intelligence Platform</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="dashboard">
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <div class="brand">
+          <div class="brand-mark">GCF</div>
+          <div class="brand-copy">
+            <span class="eyebrow">GCF Project</span>
+            <strong>SOC Dashboard</strong>
+            <span>Threat intelligence operations center</span>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="index.html" data-nav-link>Home</a>
+          <a href="dashboard.html" class="active" data-nav-link>Dashboard</a>
+          <a href="investigation.html" data-nav-link>Investigation</a>
+          <a href="reports.html" data-nav-link>Reports</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h1 class="page-title">Security Operations Center</h1>
+            <p class="lead">Operational overview, threat feed, local CVE review, and animated charts for classroom SOC analysis.</p>
+          </div>
+          <div class="panel">
+            <div class="meta-row">
+              <span class="badge neutral">Current Date: <strong id="current-date">--</strong></span>
+              <span class="badge neutral">Clock: <strong id="digital-clock">--:--:--</strong></span>
+              <span class="badge green">SOC Status: <strong id="soc-status">Operational</strong></span>
+            </div>
+            <p class="small" style="margin-top:10px;">Last Threat Update: <strong id="last-threat-update">--</strong></p>
+            <p class="small">Analyst Name (Demo): <strong id="analyst-name">A. Mehta, SOC Analyst</strong></p>
+          </div>
+        </div>
+
+        <section class="page-section" style="padding-top:0;">
+          <div id="dashboard-stats" class="metric-grid"></div>
+        </section>
+
+        <section class="page-section">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">Threat Analytics</h2>
+              <p class="lead">Chart.js visualizations derived from the local demo incident and indicator datasets.</p>
+            </div>
+          </div>
+          <div class="chart-grid">
+            <article class="chart-panel">
+              <div class="chart-title"><h3>Threat Distribution</h3><span class="badge neutral">Doughnut</span></div>
+              <canvas id="threat-distribution-chart"></canvas>
+            </article>
+            <article class="chart-panel">
+              <div class="chart-title"><h3>Severity Breakdown</h3><span class="badge neutral">Bar</span></div>
+              <canvas id="severity-breakdown-chart"></canvas>
+            </article>
+            <article class="chart-panel">
+              <div class="chart-title"><h3>Attack Categories</h3><span class="badge neutral">Radar</span></div>
+              <canvas id="attack-categories-chart"></canvas>
+            </article>
+            <article class="chart-panel">
+              <div class="chart-title"><h3>Monthly Incidents</h3><span class="badge neutral">Line</span></div>
+              <canvas id="monthly-incidents-chart"></canvas>
+            </article>
+            <article class="chart-panel" style="grid-column: 1 / -1;">
+              <div class="chart-title"><h3>Country Distribution</h3><span class="badge neutral">Polar Area</span></div>
+              <canvas id="country-distribution-chart"></canvas>
+            </article>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="layout-grid">
+            <article class="feed-panel">
+              <div class="block-title">
+                <h3>Threat Intelligence Feed</h3>
+                <span class="badge neutral">Search, sort, filter</span>
+              </div>
+              <div class="toolbar" style="margin-bottom:14px;">
+                <input id="feed-search" class="input" type="search" placeholder="Search threats, countries, categories" />
+                <select id="feed-severity" class="select">
+                  <option value="all">All Severities</option>
+                </select>
+                <select id="feed-country" class="select">
+                  <option value="all">All Countries</option>
+                </select>
+                <select id="feed-sort" class="select">
+                  <option value="date-desc">Newest First</option>
+                  <option value="severity-desc">Highest Severity</option>
+                </select>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Threat</th>
+                      <th>Category</th>
+                      <th>Country</th>
+                      <th>Severity</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody id="feed-body"></tbody>
+                </table>
+              </div>
+              <p id="feed-empty" class="table-note hidden" style="margin-top:12px;">No threat feed rows match the current filters.</p>
+            </article>
+
+            <article class="map-panel">
+              <div class="block-title">
+                <h3>Threat Map</h3>
+                <span class="badge neutral">Global activity</span>
+              </div>
+              <div id="dashboard-map"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <article class="explorer-panel">
+            <div class="block-title">
+              <h3>CVE Explorer</h3>
+              <span class="badge neutral">Local vulnerability dataset</span>
+            </div>
+            <div class="toolbar" style="margin-bottom:14px;">
+              <input id="cve-search" class="input" type="search" placeholder="Search CVE ID, product, severity, description" />
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>CVE ID</th>
+                    <th>Description</th>
+                    <th>CVSS Score</th>
+                    <th>Severity</th>
+                    <th>Affected Product</th>
+                    <th>Mitigation</th>
+                  </tr>
+                </thead>
+                <tbody id="cve-body"></tbody>
+              </table>
+            </div>
+            <p id="cve-empty" class="table-note hidden" style="margin-top:12px;">No CVE records match your search.</p>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>Developed for Google Cybersecurity Foundation Academic Project</span>
+        <span>Dark enterprise dashboard with safe offline demo data</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

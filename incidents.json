@@ -1,0 +1,1742 @@
+﻿[
+    {
+        "incidentId":  "GCF-INC-2026-100",
+        "employeeName":  "Priya Nair",
+        "alertType":  "Suspicious Email Link",
+        "status":  "Open",
+        "priority":  "P2",
+        "category":  "Email Security",
+        "country":  "India",
+        "severity":  "Critical",
+        "confidence":  71,
+        "date":  "2026-05-11T08:05:00.0000000Z",
+        "threatType":  "Suspicious Email Link",
+        "indicatorType":  "ip",
+        "indicatorValue":  "203.0.113.20",
+        "mitreStage":  "Initial Access",
+        "evidence":  "Local evidence set 1 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "203.0.113.20",
+                           "India",
+                           "Email Security"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  48,
+        "summary":  "Safe academic simulation describing Suspicious Email Link for Priya Nair.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-101",
+        "employeeName":  "Arjun Verma",
+        "alertType":  "Unusual VPN Login",
+        "status":  "Contained",
+        "priority":  "P3",
+        "category":  "Identity",
+        "country":  "USA",
+        "severity":  "High",
+        "confidence":  72,
+        "date":  "2026-05-12T09:06:00.0000000Z",
+        "threatType":  "Unusual VPN Login",
+        "indicatorType":  "domain",
+        "indicatorValue":  "portal-2.demo-intel.net",
+        "mitreStage":  "Execution",
+        "evidence":  "Local evidence set 2 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "portal-2.demo-intel.net",
+                           "USA",
+                           "Identity"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  49,
+        "summary":  "Safe academic simulation describing Unusual VPN Login for Arjun Verma.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-102",
+        "employeeName":  "Sara Khan",
+        "alertType":  "Anomalous DNS Query",
+        "status":  "Monitoring",
+        "priority":  "P4",
+        "category":  "DNS",
+        "country":  "Germany",
+        "severity":  "Medium",
+        "confidence":  73,
+        "date":  "2026-05-13T10:07:00.0000000Z",
+        "threatType":  "Anomalous DNS Query",
+        "indicatorType":  "url",
+        "indicatorValue":  "https://demo-security.local/resource/3/case",
+        "mitreStage":  "Persistence",
+        "evidence":  "Local evidence set 3 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "https://demo-security.local/resource/3/case",
+                           "Germany",
+                           "DNS"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  50,
+        "summary":  "Safe academic simulation describing Anomalous DNS Query for Sara Khan.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-103",
+        "employeeName":  "Daniel Roy",
+        "alertType":  "File Integrity Alert",
+        "status":  "Closed",
+        "priority":  "P1",
+        "category":  "Endpoint",
+        "country":  "Russia",
+        "severity":  "Low",
+        "confidence":  74,
+        "date":  "2026-05-14T11:08:00.0000000Z",
+        "threatType":  "File Integrity Alert",
+        "indicatorType":  "email",
+        "indicatorValue":  "alert4@security-demo.org",
+        "mitreStage":  "Privilege Escalation",
+        "evidence":  "Local evidence set 4 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "alert4@security-demo.org",
+                           "Russia",
+                           "Endpoint"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  51,
+        "summary":  "Safe academic simulation describing File Integrity Alert for Daniel Roy.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-104",
+        "employeeName":  "Meera Iyer",
+        "alertType":  "Outbound Beacon Pattern",
+        "status":  "Open",
+        "priority":  "P2",
+        "category":  "Network",
+        "country":  "United Kingdom",
+        "severity":  "Critical",
+        "confidence":  75,
+        "date":  "2026-05-15T12:09:00.0000000Z",
+        "threatType":  "Outbound Beacon Pattern",
+        "indicatorType":  "hash",
+        "indicatorValue":  "000003ed000007d600000bbf00000fa8",
+        "mitreStage":  "Defense Evasion",
+        "evidence":  "Local evidence set 5 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "000003ed000007d600000bbf00000fa8",
+                           "United Kingdom",
+                           "Network"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  52,
+        "summary":  "Safe academic simulation describing Outbound Beacon Pattern for Meera Iyer.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-105",
+        "employeeName":  "Omar Ali",
+        "alertType":  "Abnormal Cloud Access",
+        "status":  "Contained",
+        "priority":  "P3",
+        "category":  "Cloud",
+        "country":  "China",
+        "severity":  "High",
+        "confidence":  76,
+        "date":  "2026-05-16T13:10:00.0000000Z",
+        "threatType":  "Abnormal Cloud Access",
+        "indicatorType":  "ip",
+        "indicatorValue":  "203.0.113.25",
+        "mitreStage":  "Credential Access",
+        "evidence":  "Local evidence set 6 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "203.0.113.25",
+                           "China",
+                           "Cloud"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  53,
+        "summary":  "Safe academic simulation describing Abnormal Cloud Access for Omar Ali.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-106",
+        "employeeName":  "Neha Sharma",
+        "alertType":  "Login From New Region",
+        "status":  "Monitoring",
+        "priority":  "P4",
+        "category":  "Authentication",
+        "country":  "India",
+        "severity":  "Medium",
+        "confidence":  77,
+        "date":  "2026-05-17T08:11:00.0000000Z",
+        "threatType":  "Login From New Region",
+        "indicatorType":  "domain",
+        "indicatorValue":  "portal-7.demo-intel.net",
+        "mitreStage":  "Discovery",
+        "evidence":  "Local evidence set 7 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "portal-7.demo-intel.net",
+                           "India",
+                           "Authentication"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  54,
+        "summary":  "Safe academic simulation describing Login From New Region for Neha Sharma.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-107",
+        "employeeName":  "Anika Singh",
+        "alertType":  "Rare Process Spawn",
+        "status":  "Closed",
+        "priority":  "P1",
+        "category":  "File Monitoring",
+        "country":  "USA",
+        "severity":  "Low",
+        "confidence":  78,
+        "date":  "2026-05-18T09:12:00.0000000Z",
+        "threatType":  "Rare Process Spawn",
+        "indicatorType":  "url",
+        "indicatorValue":  "https://demo-security.local/resource/8/case",
+        "mitreStage":  "Collection",
+        "evidence":  "Local evidence set 8 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "https://demo-security.local/resource/8/case",
+                           "USA",
+                           "File Monitoring"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  55,
+        "summary":  "Safe academic simulation describing Rare Process Spawn for Anika Singh.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-108",
+        "employeeName":  "Rahul Bose",
+        "alertType":  "Suspicious Email Link",
+        "status":  "Open",
+        "priority":  "P2",
+        "category":  "Email Security",
+        "country":  "Germany",
+        "severity":  "Critical",
+        "confidence":  79,
+        "date":  "2026-05-19T10:13:00.0000000Z",
+        "threatType":  "Suspicious Email Link",
+        "indicatorType":  "email",
+        "indicatorValue":  "alert9@security-demo.org",
+        "mitreStage":  "Command and Control",
+        "evidence":  "Local evidence set 9 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "alert9@security-demo.org",
+                           "Germany",
+                           "Email Security"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  56,
+        "summary":  "Safe academic simulation describing Suspicious Email Link for Rahul Bose.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-109",
+        "employeeName":  "Kavya Menon",
+        "alertType":  "Unusual VPN Login",
+        "status":  "Contained",
+        "priority":  "P3",
+        "category":  "Identity",
+        "country":  "Russia",
+        "severity":  "High",
+        "confidence":  80,
+        "date":  "2026-05-20T11:14:00.0000000Z",
+        "threatType":  "Unusual VPN Login",
+        "indicatorType":  "hash",
+        "indicatorValue":  "000003f2000007db00000bc400000fad",
+        "mitreStage":  "Exfiltration",
+        "evidence":  "Local evidence set 10 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "000003f2000007db00000bc400000fad",
+                           "Russia",
+                           "Identity"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  57,
+        "summary":  "Safe academic simulation describing Unusual VPN Login for Kavya Menon.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-110",
+        "employeeName":  "Isha Patel",
+        "alertType":  "Anomalous DNS Query",
+        "status":  "Monitoring",
+        "priority":  "P4",
+        "category":  "DNS",
+        "country":  "United Kingdom",
+        "severity":  "Medium",
+        "confidence":  81,
+        "date":  "2026-05-21T12:15:00.0000000Z",
+        "threatType":  "Anomalous DNS Query",
+        "indicatorType":  "ip",
+        "indicatorValue":  "203.0.113.30",
+        "mitreStage":  "Initial Access",
+        "evidence":  "Local evidence set 11 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "203.0.113.30",
+                           "United Kingdom",
+                           "DNS"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  58,
+        "summary":  "Safe academic simulation describing Anomalous DNS Query for Isha Patel.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-111",
+        "employeeName":  "Amit Joshi",
+        "alertType":  "File Integrity Alert",
+        "status":  "Closed",
+        "priority":  "P1",
+        "category":  "Endpoint",
+        "country":  "China",
+        "severity":  "Low",
+        "confidence":  82,
+        "date":  "2026-05-22T13:16:00.0000000Z",
+        "threatType":  "File Integrity Alert",
+        "indicatorType":  "domain",
+        "indicatorValue":  "portal-12.demo-intel.net",
+        "mitreStage":  "Execution",
+        "evidence":  "Local evidence set 12 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "portal-12.demo-intel.net",
+                           "China",
+                           "Endpoint"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  59,
+        "summary":  "Safe academic simulation describing File Integrity Alert for Amit Joshi.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-112",
+        "employeeName":  "Priya Nair",
+        "alertType":  "Outbound Beacon Pattern",
+        "status":  "Open",
+        "priority":  "P2",
+        "category":  "Network",
+        "country":  "India",
+        "severity":  "Critical",
+        "confidence":  83,
+        "date":  "2026-05-23T08:17:00.0000000Z",
+        "threatType":  "Outbound Beacon Pattern",
+        "indicatorType":  "url",
+        "indicatorValue":  "https://demo-security.local/resource/13/case",
+        "mitreStage":  "Persistence",
+        "evidence":  "Local evidence set 13 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "https://demo-security.local/resource/13/case",
+                           "India",
+                           "Network"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  60,
+        "summary":  "Safe academic simulation describing Outbound Beacon Pattern for Priya Nair.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-113",
+        "employeeName":  "Arjun Verma",
+        "alertType":  "Abnormal Cloud Access",
+        "status":  "Contained",
+        "priority":  "P3",
+        "category":  "Cloud",
+        "country":  "USA",
+        "severity":  "High",
+        "confidence":  84,
+        "date":  "2026-05-24T09:18:00.0000000Z",
+        "threatType":  "Abnormal Cloud Access",
+        "indicatorType":  "email",
+        "indicatorValue":  "alert14@security-demo.org",
+        "mitreStage":  "Privilege Escalation",
+        "evidence":  "Local evidence set 14 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "alert14@security-demo.org",
+                           "USA",
+                           "Cloud"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  61,
+        "summary":  "Safe academic simulation describing Abnormal Cloud Access for Arjun Verma.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-114",
+        "employeeName":  "Sara Khan",
+        "alertType":  "Login From New Region",
+        "status":  "Monitoring",
+        "priority":  "P4",
+        "category":  "Authentication",
+        "country":  "Germany",
+        "severity":  "Medium",
+        "confidence":  85,
+        "date":  "2026-05-25T10:19:00.0000000Z",
+        "threatType":  "Login From New Region",
+        "indicatorType":  "hash",
+        "indicatorValue":  "000003f7000007e000000bc900000fb2",
+        "mitreStage":  "Defense Evasion",
+        "evidence":  "Local evidence set 15 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "000003f7000007e000000bc900000fb2",
+                           "Germany",
+                           "Authentication"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  62,
+        "summary":  "Safe academic simulation describing Login From New Region for Sara Khan.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-115",
+        "employeeName":  "Daniel Roy",
+        "alertType":  "Rare Process Spawn",
+        "status":  "Closed",
+        "priority":  "P1",
+        "category":  "File Monitoring",
+        "country":  "Russia",
+        "severity":  "Low",
+        "confidence":  86,
+        "date":  "2026-05-26T11:20:00.0000000Z",
+        "threatType":  "Rare Process Spawn",
+        "indicatorType":  "ip",
+        "indicatorValue":  "203.0.113.35",
+        "mitreStage":  "Credential Access",
+        "evidence":  "Local evidence set 16 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "203.0.113.35",
+                           "Russia",
+                           "File Monitoring"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  63,
+        "summary":  "Safe academic simulation describing Rare Process Spawn for Daniel Roy.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-116",
+        "employeeName":  "Meera Iyer",
+        "alertType":  "Suspicious Email Link",
+        "status":  "Open",
+        "priority":  "P2",
+        "category":  "Email Security",
+        "country":  "United Kingdom",
+        "severity":  "Critical",
+        "confidence":  87,
+        "date":  "2026-05-27T12:21:00.0000000Z",
+        "threatType":  "Suspicious Email Link",
+        "indicatorType":  "domain",
+        "indicatorValue":  "portal-17.demo-intel.net",
+        "mitreStage":  "Discovery",
+        "evidence":  "Local evidence set 17 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "portal-17.demo-intel.net",
+                           "United Kingdom",
+                           "Email Security"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  64,
+        "summary":  "Safe academic simulation describing Suspicious Email Link for Meera Iyer.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-117",
+        "employeeName":  "Omar Ali",
+        "alertType":  "Unusual VPN Login",
+        "status":  "Contained",
+        "priority":  "P3",
+        "category":  "Identity",
+        "country":  "China",
+        "severity":  "High",
+        "confidence":  88,
+        "date":  "2026-05-28T13:22:00.0000000Z",
+        "threatType":  "Unusual VPN Login",
+        "indicatorType":  "url",
+        "indicatorValue":  "https://demo-security.local/resource/18/case",
+        "mitreStage":  "Collection",
+        "evidence":  "Local evidence set 18 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "https://demo-security.local/resource/18/case",
+                           "China",
+                           "Identity"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  65,
+        "summary":  "Safe academic simulation describing Unusual VPN Login for Omar Ali.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-118",
+        "employeeName":  "Neha Sharma",
+        "alertType":  "Anomalous DNS Query",
+        "status":  "Monitoring",
+        "priority":  "P4",
+        "category":  "DNS",
+        "country":  "India",
+        "severity":  "Medium",
+        "confidence":  89,
+        "date":  "2026-05-29T08:23:00.0000000Z",
+        "threatType":  "Anomalous DNS Query",
+        "indicatorType":  "email",
+        "indicatorValue":  "alert19@security-demo.org",
+        "mitreStage":  "Command and Control",
+        "evidence":  "Local evidence set 19 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "alert19@security-demo.org",
+                           "India",
+                           "DNS"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  66,
+        "summary":  "Safe academic simulation describing Anomalous DNS Query for Neha Sharma.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-119",
+        "employeeName":  "Anika Singh",
+        "alertType":  "File Integrity Alert",
+        "status":  "Closed",
+        "priority":  "P1",
+        "category":  "Endpoint",
+        "country":  "USA",
+        "severity":  "Low",
+        "confidence":  90,
+        "date":  "2026-05-30T09:24:00.0000000Z",
+        "threatType":  "File Integrity Alert",
+        "indicatorType":  "hash",
+        "indicatorValue":  "000003fc000007e500000bce00000fb7",
+        "mitreStage":  "Exfiltration",
+        "evidence":  "Local evidence set 20 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "000003fc000007e500000bce00000fb7",
+                           "USA",
+                           "Endpoint"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  67,
+        "summary":  "Safe academic simulation describing File Integrity Alert for Anika Singh.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-120",
+        "employeeName":  "Rahul Bose",
+        "alertType":  "Outbound Beacon Pattern",
+        "status":  "Open",
+        "priority":  "P2",
+        "category":  "Network",
+        "country":  "Germany",
+        "severity":  "Critical",
+        "confidence":  91,
+        "date":  "2026-05-31T10:25:00.0000000Z",
+        "threatType":  "Outbound Beacon Pattern",
+        "indicatorType":  "ip",
+        "indicatorValue":  "203.0.113.40",
+        "mitreStage":  "Initial Access",
+        "evidence":  "Local evidence set 21 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "203.0.113.40",
+                           "Germany",
+                           "Network"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  68,
+        "summary":  "Safe academic simulation describing Outbound Beacon Pattern for Rahul Bose.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-121",
+        "employeeName":  "Kavya Menon",
+        "alertType":  "Abnormal Cloud Access",
+        "status":  "Contained",
+        "priority":  "P3",
+        "category":  "Cloud",
+        "country":  "Russia",
+        "severity":  "High",
+        "confidence":  92,
+        "date":  "2026-06-01T11:26:00.0000000Z",
+        "threatType":  "Abnormal Cloud Access",
+        "indicatorType":  "domain",
+        "indicatorValue":  "portal-22.demo-intel.net",
+        "mitreStage":  "Execution",
+        "evidence":  "Local evidence set 22 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "portal-22.demo-intel.net",
+                           "Russia",
+                           "Cloud"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  69,
+        "summary":  "Safe academic simulation describing Abnormal Cloud Access for Kavya Menon.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-122",
+        "employeeName":  "Isha Patel",
+        "alertType":  "Login From New Region",
+        "status":  "Monitoring",
+        "priority":  "P4",
+        "category":  "Authentication",
+        "country":  "United Kingdom",
+        "severity":  "Medium",
+        "confidence":  93,
+        "date":  "2026-06-02T12:27:00.0000000Z",
+        "threatType":  "Login From New Region",
+        "indicatorType":  "url",
+        "indicatorValue":  "https://demo-security.local/resource/23/case",
+        "mitreStage":  "Persistence",
+        "evidence":  "Local evidence set 23 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "https://demo-security.local/resource/23/case",
+                           "United Kingdom",
+                           "Authentication"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  70,
+        "summary":  "Safe academic simulation describing Login From New Region for Isha Patel.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-123",
+        "employeeName":  "Amit Joshi",
+        "alertType":  "Rare Process Spawn",
+        "status":  "Closed",
+        "priority":  "P1",
+        "category":  "File Monitoring",
+        "country":  "China",
+        "severity":  "Low",
+        "confidence":  94,
+        "date":  "2026-06-03T13:28:00.0000000Z",
+        "threatType":  "Rare Process Spawn",
+        "indicatorType":  "email",
+        "indicatorValue":  "alert24@security-demo.org",
+        "mitreStage":  "Privilege Escalation",
+        "evidence":  "Local evidence set 24 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "alert24@security-demo.org",
+                           "China",
+                           "File Monitoring"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  71,
+        "summary":  "Safe academic simulation describing Rare Process Spawn for Amit Joshi.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-124",
+        "employeeName":  "Priya Nair",
+        "alertType":  "Suspicious Email Link",
+        "status":  "Open",
+        "priority":  "P2",
+        "category":  "Email Security",
+        "country":  "India",
+        "severity":  "Critical",
+        "confidence":  95,
+        "date":  "2026-06-04T08:29:00.0000000Z",
+        "threatType":  "Suspicious Email Link",
+        "indicatorType":  "hash",
+        "indicatorValue":  "00000401000007ea00000bd300000fbc",
+        "mitreStage":  "Defense Evasion",
+        "evidence":  "Local evidence set 25 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "00000401000007ea00000bd300000fbc",
+                           "India",
+                           "Email Security"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  72,
+        "summary":  "Safe academic simulation describing Suspicious Email Link for Priya Nair.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-125",
+        "employeeName":  "Arjun Verma",
+        "alertType":  "Unusual VPN Login",
+        "status":  "Contained",
+        "priority":  "P3",
+        "category":  "Identity",
+        "country":  "USA",
+        "severity":  "High",
+        "confidence":  96,
+        "date":  "2026-06-05T09:30:00.0000000Z",
+        "threatType":  "Unusual VPN Login",
+        "indicatorType":  "ip",
+        "indicatorValue":  "203.0.113.45",
+        "mitreStage":  "Credential Access",
+        "evidence":  "Local evidence set 26 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "203.0.113.45",
+                           "USA",
+                           "Identity"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  73,
+        "summary":  "Safe academic simulation describing Unusual VPN Login for Arjun Verma.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-126",
+        "employeeName":  "Sara Khan",
+        "alertType":  "Anomalous DNS Query",
+        "status":  "Monitoring",
+        "priority":  "P4",
+        "category":  "DNS",
+        "country":  "Germany",
+        "severity":  "Medium",
+        "confidence":  71,
+        "date":  "2026-06-06T10:31:00.0000000Z",
+        "threatType":  "Anomalous DNS Query",
+        "indicatorType":  "domain",
+        "indicatorValue":  "portal-27.demo-intel.net",
+        "mitreStage":  "Discovery",
+        "evidence":  "Local evidence set 27 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "portal-27.demo-intel.net",
+                           "Germany",
+                           "DNS"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  74,
+        "summary":  "Safe academic simulation describing Anomalous DNS Query for Sara Khan.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-127",
+        "employeeName":  "Daniel Roy",
+        "alertType":  "File Integrity Alert",
+        "status":  "Closed",
+        "priority":  "P1",
+        "category":  "Endpoint",
+        "country":  "Russia",
+        "severity":  "Low",
+        "confidence":  72,
+        "date":  "2026-06-07T11:32:00.0000000Z",
+        "threatType":  "File Integrity Alert",
+        "indicatorType":  "url",
+        "indicatorValue":  "https://demo-security.local/resource/28/case",
+        "mitreStage":  "Collection",
+        "evidence":  "Local evidence set 28 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "https://demo-security.local/resource/28/case",
+                           "Russia",
+                           "Endpoint"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  75,
+        "summary":  "Safe academic simulation describing File Integrity Alert for Daniel Roy.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-128",
+        "employeeName":  "Meera Iyer",
+        "alertType":  "Outbound Beacon Pattern",
+        "status":  "Open",
+        "priority":  "P2",
+        "category":  "Network",
+        "country":  "United Kingdom",
+        "severity":  "Critical",
+        "confidence":  73,
+        "date":  "2026-06-08T12:33:00.0000000Z",
+        "threatType":  "Outbound Beacon Pattern",
+        "indicatorType":  "email",
+        "indicatorValue":  "alert29@security-demo.org",
+        "mitreStage":  "Command and Control",
+        "evidence":  "Local evidence set 29 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "alert29@security-demo.org",
+                           "United Kingdom",
+                           "Network"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  76,
+        "summary":  "Safe academic simulation describing Outbound Beacon Pattern for Meera Iyer.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    },
+    {
+        "incidentId":  "GCF-INC-2026-129",
+        "employeeName":  "Omar Ali",
+        "alertType":  "Abnormal Cloud Access",
+        "status":  "Contained",
+        "priority":  "P3",
+        "category":  "Cloud",
+        "country":  "China",
+        "severity":  "High",
+        "confidence":  74,
+        "date":  "2026-06-09T13:34:00.0000000Z",
+        "threatType":  "Abnormal Cloud Access",
+        "indicatorType":  "hash",
+        "indicatorValue":  "00000406000007ef00000bd800000fc1",
+        "mitreStage":  "Exfiltration",
+        "evidence":  "Local evidence set 30 includes correlated IOC entries, timestamp alignment, and analyst notes for classroom use.",
+        "indicators":  [
+                           "00000406000007ef00000bd800000fc1",
+                           "China",
+                           "Cloud"
+                       ],
+        "recommendation":  "Isolate the affected asset in the demo narrative, document findings, and notify stakeholders.",
+        "riskScore":  77,
+        "summary":  "Safe academic simulation describing Abnormal Cloud Access for Omar Ali.",
+        "analystNotes":  "This case is synthetic and intended only for presentation of SOC workflows.",
+        "timeline":  [
+                         {
+                             "detail":  "SOC receives the first local demo alert.",
+                             "time":  "08:55",
+                             "title":  "Alert Received"
+                         },
+                         {
+                             "detail":  "Multiple indicators correlate to a suspicious case.",
+                             "time":  "09:00",
+                             "title":  "Threat Detected"
+                         },
+                         {
+                             "detail":  "Threat intelligence records are compared with the IOC.",
+                             "time":  "09:03",
+                             "title":  "IOC Investigation"
+                         },
+                         {
+                             "detail":  "Analyst review confirms the risk pattern.",
+                             "time":  "09:06",
+                             "title":  "Threat Confirmed"
+                         },
+                         {
+                             "detail":  "Simulated containment actions are documented.",
+                             "time":  "09:08",
+                             "title":  "Containment"
+                         },
+                         {
+                             "detail":  "Case package is prepared for presentation.",
+                             "time":  "09:10",
+                             "title":  "Report Generated"
+                         }
+                     ]
+    }
+]

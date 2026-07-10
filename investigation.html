@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Investigation simulator for the GCF Cyber Crime Intelligence Platform." />
+  <title>Investigation | GCF Cyber Crime Intelligence Platform</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="investigation">
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <div class="brand">
+          <div class="brand-mark">GCF</div>
+          <div class="brand-copy">
+            <span class="eyebrow">GCF Project</span>
+            <strong>Investigation Simulator</strong>
+            <span>Digital evidence and threat intelligence</span>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="index.html" data-nav-link>Home</a>
+          <a href="dashboard.html" data-nav-link>Dashboard</a>
+          <a href="investigation.html" class="active" data-nav-link>Investigation</a>
+          <a href="reports.html" data-nav-link>Reports</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h1 class="page-title">Incident Investigation</h1>
+            <p class="lead">Start with a focused IOC search. Once an indicator is found, the investigation details, workflow, and report context are revealed below.</p>
+          </div>
+          <div class="section-actions">
+            <button id="start-investigation" class="btn" type="button">Start Investigation</button>
+            <a class="btn-ghost" href="reports.html">Open Report</a>
+          </div>
+        </div>
+
+        <section class="page-section" style="padding-top:0;">
+          <article class="lookup-panel search-first-panel">
+            <div class="block-title">
+              <h3>IOC Search Console</h3>
+              <span class="badge neutral">Search first, reveal details later</span>
+            </div>
+            <p class="small">Enter an IP address, domain, URL, email address, or file hash from the local demo datasets. The matched case details will appear after search.</p>
+            <form id="lookup-form" class="search-console">
+              <select id="lookup-type" class="select">
+                <option value="ip">IP Address</option>
+                <option value="domain">Domain</option>
+                <option value="url">URL</option>
+                <option value="email">Email Address</option>
+                <option value="hash">File Hash</option>
+              </select>
+              <input id="lookup-query" class="input search-input" type="search" placeholder="Search indicator, example: 203.0.113.24" />
+              <button class="btn" type="submit">Search IOC</button>
+            </form>
+            <div class="search-hint">Tip: try one of the demo values shown on the dashboard or press Start Investigation to generate a case.</div>
+          </article>
+
+          <div id="investigation-details" class="hidden" style="margin-top:18px;">
+            <div class="layout-grid">
+              <article class="lookup-panel">
+                <div class="block-title">
+                  <h3>Incident Snapshot</h3>
+                  <span class="badge neutral">Safe local demo case</span>
+                </div>
+                <div id="incident-card"></div>
+              </article>
+
+              <article class="lookup-panel">
+                <div class="block-title">
+                  <h3>Investigation Workflow</h3>
+                  <span class="badge neutral">Animated stages</span>
+                </div>
+                <div id="workflow-steps" class="workflow"></div>
+              </article>
+            </div>
+
+            <section class="page-section">
+              <div class="layout-grid">
+                <article class="lookup-panel">
+                  <div class="block-title">
+                    <h3>Search Result Details</h3>
+                    <span class="badge neutral">IOC intelligence</span>
+                  </div>
+                  <div style="margin-top:16px;">
+                    <div class="meter"><span id="risk-meter"></span></div>
+                    <div class="meta-row" style="margin-top:10px;">
+                      <span class="badge neutral">Risk Meter</span>
+                      <span id="lookup-label" class="badge green">Green</span>
+                    </div>
+                  </div>
+                  <div id="lookup-result" style="margin-top:16px;"></div>
+                </article>
+
+                <article class="map-panel">
+                  <div class="block-title">
+                    <h3>Threat Map</h3>
+                    <span class="badge neutral">Demonstration paths</span>
+                  </div>
+                  <div id="investigation-map"></div>
+                </article>
+              </div>
+            </section>
+
+            <section class="page-section">
+              <div class="layout-grid">
+                <article class="summary-panel">
+                  <div class="block-title">
+                    <h3>AI Investigation Summary</h3>
+                    <span class="badge neutral">SOC reasoning</span>
+                  </div>
+                  <div id="ai-summary"></div>
+                </article>
+
+                <article class="summary-panel">
+                  <div class="block-title">
+                    <h3>Incident Timeline</h3>
+                    <span class="badge neutral">Animated case flow</span>
+                  </div>
+                  <div id="incident-timeline" class="timeline"></div>
+                </article>
+              </div>
+            </section>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>Developed for Google Cybersecurity Foundation Academic Project</span>
+        <span>Educational SOC workflow simulation only</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

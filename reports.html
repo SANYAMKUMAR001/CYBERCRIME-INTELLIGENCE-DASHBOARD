@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Printable report for the GCF Cyber Crime Intelligence Platform." />
+  <title>Reports | GCF Cyber Crime Intelligence Platform</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="reports">
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <div class="brand">
+          <div class="brand-mark">GCF</div>
+          <div class="brand-copy">
+            <span class="eyebrow">GCF Project</span>
+            <strong>Investigation Report</strong>
+            <span>Printable academic case summary</span>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="index.html" data-nav-link>Home</a>
+          <a href="dashboard.html" data-nav-link>Dashboard</a>
+          <a href="investigation.html" data-nav-link>Investigation</a>
+          <a href="reports.html" class="active" data-nav-link>Reports</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h1 class="page-title">Printable Investigation Report</h1>
+            <p class="lead">A presentation-ready report built from the current local demo incident and IOC intelligence.</p>
+          </div>
+          <div class="report-controls">
+            <button id="regenerate-report" class="btn-ghost" type="button">Regenerate Case</button>
+            <button id="print-report" class="btn" type="button">Print Report</button>
+          </div>
+        </div>
+
+        <section class="report-layout">
+          <article class="report-block">
+            <div class="report-header">
+              <div class="logo-box">Institution<br />Logo</div>
+              <div class="report-meta">
+                <span class="badge neutral">GCF Project Title</span>
+                <strong>Cyber Crime Intelligence Platform</strong>
+                <span class="small">Subtitle: Google Cybersecurity Foundation Academic Project</span>
+              </div>
+            </div>
+
+            <div class="kv-grid" style="margin-bottom:18px;">
+              <div class="kv"><span>Incident ID</span><strong id="reportIncidentId">--</strong></div>
+              <div class="kv"><span>Alert Type</span><strong id="reportTitle">--</strong></div>
+              <div class="kv"><span>Threat Class</span><strong id="reportThreatClass">--</strong></div>
+              <div class="kv"><span>Severity</span><strong id="reportSeverity">--</strong></div>
+              <div class="kv"><span>Date</span><strong id="reportDate">--</strong></div>
+              <div class="kv"><span>Risk Score</span><strong id="reportRisk">--</strong></div>
+            </div>
+
+            <div class="panel" style="margin-bottom:18px;">
+              <h4>Incident Summary</h4>
+              <p id="reportSummary" class="small"></p>
+            </div>
+
+            <div class="panel" style="margin-bottom:18px;">
+              <h4>Timeline</h4>
+              <div id="incident-timeline" class="timeline"></div>
+            </div>
+
+            <div class="panel" style="margin-bottom:18px;">
+              <h4>Evidence</h4>
+              <p id="reportEvidence" class="small"></p>
+            </div>
+
+            <div class="panel" style="margin-bottom:18px;">
+              <h4>Threat Indicators</h4>
+              <p id="reportIndicators" class="small"></p>
+            </div>
+
+            <div class="panel" style="margin-bottom:18px;">
+              <h4>Recommendations</h4>
+              <p id="reportRecommendations" class="small"></p>
+            </div>
+          </article>
+
+          <aside class="report-block">
+            <div class="block-title">
+              <h3>Analyst Notes</h3>
+              <span class="badge neutral">Demo</span>
+            </div>
+            <div id="reportNotes" class="report-note panel"></div>
+            <div class="panel" style="margin-top:18px;">
+              <h4>Print Guidance</h4>
+              <p class="small">Use the print button to export the report as a presentation handout or PDF.</p>
+            </div>
+            <div class="panel" style="margin-top:18px;">
+              <h4>Safety Note</h4>
+              <p class="small">This project only uses local demonstration data and never performs live attacks or exploitation.</p>
+            </div>
+          </aside>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>Developed for Google Cybersecurity Foundation Academic Project</span>
+        <span>Printable SOC report generated from offline demo data</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

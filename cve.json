@@ -1,0 +1,242 @@
+﻿[
+    {
+        "cveId":  "CVE-2024-1100",
+        "description":  "Security weakness example 1 for academic triage and patch prioritization.",
+        "cvssScore":  5.1,
+        "severity":  "Medium",
+        "affectedProduct":  "Windows 11",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1101",
+        "description":  "Security weakness example 2 for academic triage and patch prioritization.",
+        "cvssScore":  5.8,
+        "severity":  "High",
+        "affectedProduct":  "Microsoft Exchange",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1102",
+        "description":  "Security weakness example 3 for academic triage and patch prioritization.",
+        "cvssScore":  6.5,
+        "severity":  "Critical",
+        "affectedProduct":  "Google Chrome",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1103",
+        "description":  "Security weakness example 4 for academic triage and patch prioritization.",
+        "cvssScore":  7.2,
+        "severity":  "Low",
+        "affectedProduct":  "Apache HTTP Server",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1104",
+        "description":  "Security weakness example 5 for academic triage and patch prioritization.",
+        "cvssScore":  7.9,
+        "severity":  "Medium",
+        "affectedProduct":  "Cisco IOS XE",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1105",
+        "description":  "Security weakness example 6 for academic triage and patch prioritization.",
+        "cvssScore":  8.6,
+        "severity":  "High",
+        "affectedProduct":  "OpenSSL",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1106",
+        "description":  "Security weakness example 7 for academic triage and patch prioritization.",
+        "cvssScore":  5.1,
+        "severity":  "Critical",
+        "affectedProduct":  "VMware ESXi",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1107",
+        "description":  "Security weakness example 8 for academic triage and patch prioritization.",
+        "cvssScore":  5.8,
+        "severity":  "Low",
+        "affectedProduct":  "Adobe Acrobat",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1108",
+        "description":  "Security weakness example 9 for academic triage and patch prioritization.",
+        "cvssScore":  6.5,
+        "severity":  "Medium",
+        "affectedProduct":  "Windows 11",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1109",
+        "description":  "Security weakness example 10 for academic triage and patch prioritization.",
+        "cvssScore":  7.2,
+        "severity":  "High",
+        "affectedProduct":  "Microsoft Exchange",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1110",
+        "description":  "Security weakness example 11 for academic triage and patch prioritization.",
+        "cvssScore":  7.9,
+        "severity":  "Critical",
+        "affectedProduct":  "Google Chrome",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1111",
+        "description":  "Security weakness example 12 for academic triage and patch prioritization.",
+        "cvssScore":  8.6,
+        "severity":  "Low",
+        "affectedProduct":  "Apache HTTP Server",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1112",
+        "description":  "Security weakness example 13 for academic triage and patch prioritization.",
+        "cvssScore":  5.1,
+        "severity":  "Medium",
+        "affectedProduct":  "Cisco IOS XE",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1113",
+        "description":  "Security weakness example 14 for academic triage and patch prioritization.",
+        "cvssScore":  5.8,
+        "severity":  "High",
+        "affectedProduct":  "OpenSSL",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1114",
+        "description":  "Security weakness example 15 for academic triage and patch prioritization.",
+        "cvssScore":  6.5,
+        "severity":  "Critical",
+        "affectedProduct":  "VMware ESXi",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1115",
+        "description":  "Security weakness example 16 for academic triage and patch prioritization.",
+        "cvssScore":  7.2,
+        "severity":  "Low",
+        "affectedProduct":  "Adobe Acrobat",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1116",
+        "description":  "Security weakness example 17 for academic triage and patch prioritization.",
+        "cvssScore":  7.9,
+        "severity":  "Medium",
+        "affectedProduct":  "Windows 11",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1117",
+        "description":  "Security weakness example 18 for academic triage and patch prioritization.",
+        "cvssScore":  8.6,
+        "severity":  "High",
+        "affectedProduct":  "Microsoft Exchange",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1118",
+        "description":  "Security weakness example 19 for academic triage and patch prioritization.",
+        "cvssScore":  5.1,
+        "severity":  "Critical",
+        "affectedProduct":  "Google Chrome",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1119",
+        "description":  "Security weakness example 20 for academic triage and patch prioritization.",
+        "cvssScore":  5.8,
+        "severity":  "Low",
+        "affectedProduct":  "Apache HTTP Server",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1120",
+        "description":  "Security weakness example 21 for academic triage and patch prioritization.",
+        "cvssScore":  6.5,
+        "severity":  "Medium",
+        "affectedProduct":  "Cisco IOS XE",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1121",
+        "description":  "Security weakness example 22 for academic triage and patch prioritization.",
+        "cvssScore":  7.2,
+        "severity":  "High",
+        "affectedProduct":  "OpenSSL",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1122",
+        "description":  "Security weakness example 23 for academic triage and patch prioritization.",
+        "cvssScore":  7.9,
+        "severity":  "Critical",
+        "affectedProduct":  "VMware ESXi",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1123",
+        "description":  "Security weakness example 24 for academic triage and patch prioritization.",
+        "cvssScore":  8.6,
+        "severity":  "Low",
+        "affectedProduct":  "Adobe Acrobat",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1124",
+        "description":  "Security weakness example 25 for academic triage and patch prioritization.",
+        "cvssScore":  5.1,
+        "severity":  "Medium",
+        "affectedProduct":  "Windows 11",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1125",
+        "description":  "Security weakness example 26 for academic triage and patch prioritization.",
+        "cvssScore":  5.8,
+        "severity":  "High",
+        "affectedProduct":  "Microsoft Exchange",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1126",
+        "description":  "Security weakness example 27 for academic triage and patch prioritization.",
+        "cvssScore":  6.5,
+        "severity":  "Critical",
+        "affectedProduct":  "Google Chrome",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1127",
+        "description":  "Security weakness example 28 for academic triage and patch prioritization.",
+        "cvssScore":  7.2,
+        "severity":  "Low",
+        "affectedProduct":  "Apache HTTP Server",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1128",
+        "description":  "Security weakness example 29 for academic triage and patch prioritization.",
+        "cvssScore":  7.9,
+        "severity":  "Medium",
+        "affectedProduct":  "Cisco IOS XE",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    },
+    {
+        "cveId":  "CVE-2024-1129",
+        "description":  "Security weakness example 30 for academic triage and patch prioritization.",
+        "cvssScore":  8.6,
+        "severity":  "High",
+        "affectedProduct":  "OpenSSL",
+        "mitigation":  "Apply vendor patch, restrict exposure, and validate configuration hardening."
+    }
+]
